@@ -12,9 +12,15 @@ Node configuration using babel
 ## usage
 
 ```sh
+# installation
+yarn add -D @yanc/env-babel@"github:aistyler/yanc-env-babel#refs/tags/v1.3.4"
+# dependency packages
+yarn add -D @yanc/cli@"github:aistyler/yanc-cli#refs/tags/v1.3.4"
+yarn add @babel/runtime-corejs3
+
+# or on yarn 2+
 # this package
 yarn add -D @yanc/env-babel@"github:aistyler/yanc#workspace=@yanc/env-babel&semver:^1.0.0"
-# dependency packages
 yarn add -D @yanc/cli@"github:aistyler/yanc#workspace=@yanc/cli&sermver:^1.0.0"
 ```
 
